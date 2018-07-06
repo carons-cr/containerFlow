@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/outQuery_rkdh"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:background="@drawable/in_query_editsharp"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+        android:maxEms="16"
+        android:maxLines="3"
+        android:textSize="15dp"
+        android:shadowColor="#465d45"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/outQuery_ly"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:background="@drawable/in_query_editsharp"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+        android:maxEms="16"
+        android:maxLines="3"
+        android:textSize="15dp"
+        android:shadowColor="#465d45"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/outQuery_rqxh"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:background="@drawable/in_query_editsharp"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+        android:maxEms="15"
+        android:maxLines="3"
+        android:textSize="15dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/outQuery_rks"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:background="@drawable/in_query_editsharp"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+        android:maxEms="16"
+        android:maxLines="3"
+        android:textSize="15dp"
+        android:textColor="#000" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp">
+        <TableRow android:layout_marginTop="2dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center_horizontal"
+                    android:background="#9999"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:id="@+id/instore_wbpm">
+                </TextView>
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center_horizontal"
+                    android:background="#9999"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:id="@+id/instore_rqxh">
+                </TextView>
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center_horizontal"
+                    android:background="#9999"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:id="@+id/instore_ys">
+                </TextView>
+                <EditText android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bg_edittext"
+                    android:textCursorDrawable="@null"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/instore_ss">
+
+                </EditText>
+        </TableRow>
+
+</TableLayout>
